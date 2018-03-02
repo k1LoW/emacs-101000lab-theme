@@ -71,7 +71,7 @@
 
   (custom-theme-set-faces
    '101000lab
-   
+
    `(default ((t (:foreground ,lab-base-fg3))))
    `(cursor ((t (:background ,lab-base-fg3))))
    `(border ((t (:foreground "white"))))
@@ -82,8 +82,8 @@
    `(mode-line-buffer-id ((t (:foreground nil :background ,lab-base-bg0))))
    `(mode-line-inactive ((t (:foreground "#BCBCBC" :background "#333333"
                                          :box (:line-width 1 :color "#333333")))))
-   
-   `(minibuffer-prompt ((t (:foreground ,lab-base-fg3)))) 
+
+   `(minibuffer-prompt ((t (:foreground ,lab-base-fg3))))
 
    ;; highlight
    `(highlight ((t (:foreground "#000000" :background "#C4BE89"))))
@@ -215,6 +215,14 @@
    `(magit-diff-add ((t (:foreground ,lab-green :background nil))))
    `(magit-diff-del ((t (:foreground ,lab-red :background nil))))
 
+   ;; company
+   `(company-tooltip ((t (:foreground ,"black" :background "white"))))
+   `(company-preview-common ((t  (:foreground ,lab-darkblue :underline t))))
+   `(company-tooltip-selection ((t (:foreground "white" :background ,lab-blue))))
+   `(company-tooltip-common ((t (:foreground ,"black" :background "white", :weight bold :underline t))))
+   `(company-tooltip-common-selection ((t (:foreground "white" :background ,lab-blue :underline t))))
+   `(company-tooltip-annotation ((t (:foreground ,lab-red))))
+
    ;; web-mode
    `(web-mode-builtin-face ((t (:foreground ,lab-red))))
    `(web-mode-comment-face ((t (:foreground ,lab-darkgray))))
@@ -262,7 +270,7 @@
    `(web-mode-symbol-face ((t (:foreground ,lab-yellow))))
    `(web-mode-whitespace-face ((t (:background ,lab-red))))
    `(web-mode-html-tag-bracket-face ((t (:foreground ,base01))))
-   
+
    `(underline ((t (:underline t))))))
 
 ;;;###autoload
