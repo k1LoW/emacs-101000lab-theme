@@ -271,6 +271,9 @@
    `(web-mode-whitespace-face ((t (:background ,lab-red))))
    `(web-mode-html-tag-bracket-face ((t (:foreground ,base01))))
 
+   ;; mmm-mode
+   `(mmm-default-submode-face ((t (:background unspecified))))
+
    `(underline ((t (:underline t))))))
 
 ;;;###autoload
