@@ -223,6 +223,13 @@
    `(company-tooltip-common-selection ((t (:foreground "white" :background ,lab-blue :underline t))))
    `(company-tooltip-annotation ((t (:foreground ,lab-red))))
 
+   ;; corfu
+   `(corfu-default ((t (:foreground ,lab-darkblue :background "white"))))
+   `(corfu-current ((t (:foreground "white" :background ,lab-blue, :weight bold))))
+   `(corfu-bar ((t (:background ,lab-darkgray))))
+   `(corfu-border ((t (:background ,lab-darkblue))))
+   `(corfu-annotations ((t (:foreground ,lab-darkyellow))))
+
    ;; web-mode
    `(web-mode-builtin-face ((t (:foreground ,lab-red))))
    `(web-mode-comment-face ((t (:foreground ,lab-darkgray))))
